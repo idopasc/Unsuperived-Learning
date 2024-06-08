@@ -1,7 +1,26 @@
-# unsuperived-learning-ML
+# Unsupervised Learning for Text Clustering and Dimensionality Reduction
 
-This notebook delves into unsupervised learning methods, focusing on K-means clustering and data visualization through PCA.
+In this notebook, I will perform unsupervised learning to cluster text data (fake news) and visualize the results using Principal Component Analysis (PCA). The workflow includes loading data, preprocessing it, applying clustering algorithms, visualizing the results, and evaluating the clustering performance.
 
-It begins by loading local files and importing datasets from Kaggle. Using Scikit-learn, K-means clustering is applied, and PCA is performed for dimensionality reduction. Various visualizations illustrate the results.
+Key Steps and Tasks:
 
-To assess clustering performance, the Elbow method, Silhouette analysis, and accuracy metrics are used. The notebook features the 'Fake and real news' and 'Fashion MNIST' datasets from Kaggle and is implemented in Python.
+1. **Loading Data**:
+Load local files and Kaggle datasets.
+
+2. **Data Preparation**
+
+3. **Clustering**
+
+4. **Dimensionality Reduction and Visualization**
+
+5. **Performance Evaluation:**
+ - Evaluate the clustering performance using confusion matrices and accuracy metrics.
+ - Compare the cluster labels with the true labels to determine the accuracy. 
+ - Perform silhouette analysis and elbow method to find the optimal number of clusters.
+
+6. **Comparing Clustering Approaches:**
+ - Compare the effectiveness of clustering with and without prior dimensionality reduction.
+ - Observe that PCA does not significantly change the clustering results as it maintains the relative distances between points.
+
+7. **Extending to MNIST Dataset:**
+ - Apply the same clustering and evaluation methods to the MNIST dataset.
